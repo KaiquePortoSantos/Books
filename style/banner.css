@@ -31,3 +31,32 @@ background: url(../imagens/Lupa.svg);
 background-repeat: no-repeat;
 background-position: 10px center;
 }
+
+@media screen and (min-width: 1024px) {
+   .banner__titulo{
+    font-size: 32px;
+    font-family: var(--font-principal);
+   }
+   .banner__pesquisa{
+    width: 50%;
+   }
+   .banner__pesquisa::placeholder {
+    background-position: 10em;
+   }
+   .banner__texto{
+    font-size: 19px;
+    font-family: var(--font-secundaria);
+   }
+}
+@media  screen and (min-width: 1728px) {
+    .banner__pesquisa{
+        width: 35%;
+    }
+    .banner__pesquisa::placeholder {
+        background-position: 10em;
+    }
+    .banner{
+        padding: 6em 0;
+    }
+    
+}
